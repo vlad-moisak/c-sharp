@@ -13,5 +13,7 @@
             }
             Console.WriteLine();
         }
+
+        Console.ReadLine();
     }
 }
