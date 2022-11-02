@@ -8,12 +8,7 @@
 
 		for (int i = 0; i < height; i++)
 		{
-			for (int f = 0; f <= i; f++)
-			{
-				Console.Write(" ");
-			}
-
-			for (int j = height; j > i; j--)
+			for (int j = 0; j <= i; j++)
 			{
 				Console.Write("*");
 			}
